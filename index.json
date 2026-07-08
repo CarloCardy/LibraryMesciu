@@ -8,7 +8,7 @@
       "description": "Skill /test-routine: individua ed esegue i test del progetto (unit → lint → e2e), riporta gli esiti con marcatori chiari e non dichiara mai concluso un lavoro con test rossi.",
       "tags": ["test", "qualita", "vitest", "ci", "verifica"],
       "file": "skills/test-routine.md",
-      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/skills/test-routine.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/skills/test-routine.md",
       "install": { "type": "skill", "slug": "test-routine" }
     },
     {
@@ -18,7 +18,7 @@
       "description": "Skill /commit-locale: crea commit locali piccoli e ben descritti (Conventional Commits, corpo che spiega il perché), senza push automatici.",
       "tags": ["git", "commit", "conventional-commits", "storia"],
       "file": "skills/commit-locale.md",
-      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/skills/commit-locale.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/skills/commit-locale.md",
       "install": { "type": "skill", "slug": "commit-locale" }
     },
     {
@@ -28,7 +28,7 @@
       "description": "Skill /release-beta: routine di versionamento a tre canali (alpha locali di branch, beta per i tester, stabile per tutti) con tag semver e checklist pre-rilascio.",
       "tags": ["release", "semver", "beta", "versioning", "tag"],
       "file": "skills/release-beta.md",
-      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/skills/release-beta.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/skills/release-beta.md",
       "install": { "type": "skill", "slug": "release-beta" }
     },
     {
@@ -38,8 +38,18 @@
       "description": "Subagente read-only che esplora il codebase e produce un piano di implementazione per una feature: file da toccare, ordine dei passi, rischi e test necessari.",
       "tags": ["agente", "pianificazione", "architettura", "analisi"],
       "file": "agents/planner.md",
-      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/agents/planner.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/agents/planner.md",
       "install": { "type": "agent", "slug": "planner" }
+    },
+    {
+      "id": "html-docs",
+      "name": "Documentazione in HTML",
+      "category": "skill",
+      "description": "Skill /html-docs: produce report, review, ricerche e diagrammi come file .html autonomi e interattivi (SVG inline, sezioni collassabili, tab) invece di muri di markdown — vedi thariqs.github.io/html-effectiveness.",
+      "tags": ["html", "documentazione", "report", "diagrammi", "svg", "deliverable"],
+      "file": "skills/html-docs.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/skills/html-docs.md",
+      "install": { "type": "skill", "slug": "html-docs" }
     },
     {
       "id": "claude-md-starter",
@@ -48,7 +58,7 @@
       "description": "CLAUDE.md di partenza per un nuovo progetto: sezioni per comandi, testing, convenzioni di codice e routine automatiche. Da compilare e adattare.",
       "tags": ["claude-md", "template", "setup", "istruzioni", "progetto"],
       "file": "templates/claude-md-starter.md",
-      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/templates/claude-md-starter.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/templates/claude-md-starter.md",
       "install": { "type": "file", "suggestedPath": "CLAUDE.md" }
     },
     {
@@ -58,7 +68,7 @@
       "description": "Checklist operativa per rivedere una modifica: correttezza, semplicità, riuso, naming, gestione errori, test. Da linkare in chat prima di chiudere una feature.",
       "tags": ["review", "qualita", "checklist", "refactoring"],
       "file": "routine/code-review-checklist.md",
-      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/routine/code-review-checklist.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/routine/code-review-checklist.md",
       "install": { "type": "file", "suggestedPath": ".claude/docs/code-review-checklist.md" }
     },
     {
@@ -68,7 +78,7 @@
       "description": "Checklist di sicurezza per modifiche che toccano input utente, file, rete, subprocess o segreti: injection, path traversal, gestione token, superfici esposte.",
       "tags": ["security", "review", "injection", "token", "checklist"],
       "file": "routine/security-review-checklist.md",
-      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/routine/security-review-checklist.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/routine/security-review-checklist.md",
       "install": { "type": "file", "suggestedPath": ".claude/docs/security-review-checklist.md" }
     }
   ]

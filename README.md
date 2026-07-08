@@ -43,7 +43,7 @@ templates/      template di partenza (es. CLAUDE.md)
 
 ## Schema di `links.json` (link community)
 
-Come sopra, ma al posto di `file` c'è **`url`**: un link `https` a un file **`.md`** di un altro
+Come sopra, ma al posto di `file` c'è **`url`**: un link `https` a un file **`.md` o `.html`** di un altro
 repository (forma `blob` o `raw` di GitHub, o un URL https generico). L'app mostra la voce nella
 stessa libreria con il badge del creatore e la installa scaricando il file dal link.
 
