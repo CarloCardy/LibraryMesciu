@@ -25,4 +25,8 @@ Obiettivo: una storia git leggibile, fatta di commit piccoli e autoesplicativi.
 
 - Un commit che rompe i test non si crea: prima verde, poi commit.
 - Mai riscrivere la storia già condivisa (`rebase`/`amend` solo su commit locali).
+- I commit granulari sono la routine QUOTIDIANA: alla pubblicazione di una beta
+  vengono compattati in un solo commit sul branch principale (vedi la skill
+  `release-beta`), ma NON si chiudono — la branch locale viene fatta avanzare
+  sull'HEAD granulare prima dello squash, salvo richieste differenti dell'utente.
 - Se l'utente ha convenzioni proprie in `CLAUDE.md`, quelle vincono su questa skill.
