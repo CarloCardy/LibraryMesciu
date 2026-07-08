@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "test-routine",
+      "name": "Routine di test",
+      "category": "skill",
+      "description": "Skill /test-routine: individua ed esegue i test del progetto (unit → lint → e2e), riporta gli esiti con marcatori chiari e non dichiara mai concluso un lavoro con test rossi.",
+      "tags": ["test", "qualita", "vitest", "ci", "verifica"],
+      "file": "skills/test-routine.md",
+      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/skills/test-routine.md",
+      "install": { "type": "skill", "slug": "test-routine" }
+    },
+    {
+      "id": "commit-locale",
+      "name": "Commit locale convenzionale",
+      "category": "skill",
+      "description": "Skill /commit-locale: crea commit locali piccoli e ben descritti (Conventional Commits, corpo che spiega il perché), senza push automatici.",
+      "tags": ["git", "commit", "conventional-commits", "storia"],
+      "file": "skills/commit-locale.md",
+      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/skills/commit-locale.md",
+      "install": { "type": "skill", "slug": "commit-locale" }
+    },
+    {
+      "id": "release-beta",
+      "name": "Rilascio alpha → beta → stabile",
+      "category": "skill",
+      "description": "Skill /release-beta: routine di versionamento a tre canali (alpha locali di branch, beta per i tester, stabile per tutti) con tag semver e checklist pre-rilascio.",
+      "tags": ["release", "semver", "beta", "versioning", "tag"],
+      "file": "skills/release-beta.md",
+      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/skills/release-beta.md",
+      "install": { "type": "skill", "slug": "release-beta" }
+    },
+    {
+      "id": "planner-agent",
+      "name": "Agente Planner",
+      "category": "agent",
+      "description": "Subagente read-only che esplora il codebase e produce un piano di implementazione per una feature: file da toccare, ordine dei passi, rischi e test necessari.",
+      "tags": ["agente", "pianificazione", "architettura", "analisi"],
+      "file": "agents/planner.md",
+      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/agents/planner.md",
+      "install": { "type": "agent", "slug": "planner" }
+    },
+    {
+      "id": "claude-md-starter",
+      "name": "Template CLAUDE.md",
+      "category": "template",
+      "description": "CLAUDE.md di partenza per un nuovo progetto: sezioni per comandi, testing, convenzioni di codice e routine automatiche. Da compilare e adattare.",
+      "tags": ["claude-md", "template", "setup", "istruzioni", "progetto"],
+      "file": "templates/claude-md-starter.md",
+      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/templates/claude-md-starter.md",
+      "install": { "type": "file", "suggestedPath": "CLAUDE.md" }
+    },
+    {
+      "id": "code-review-checklist",
+      "name": "Checklist di code review",
+      "category": "routine",
+      "description": "Checklist operativa per rivedere una modifica: correttezza, semplicità, riuso, naming, gestione errori, test. Da linkare in chat prima di chiudere una feature.",
+      "tags": ["review", "qualita", "checklist", "refactoring"],
+      "file": "routine/code-review-checklist.md",
+      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/routine/code-review-checklist.md",
+      "install": { "type": "file", "suggestedPath": ".claude/docs/code-review-checklist.md" }
+    },
+    {
+      "id": "security-review-checklist",
+      "name": "Checklist di security review",
+      "category": "routine",
+      "description": "Checklist di sicurezza per modifiche che toccano input utente, file, rete, subprocess o segreti: injection, path traversal, gestione token, superfici esposte.",
+      "tags": ["security", "review", "injection", "token", "checklist"],
+      "file": "routine/security-review-checklist.md",
+      "url": "https://github.com/CarloCardy/Mesciu/blob/main/resources/presets/routine/security-review-checklist.md",
+      "install": { "type": "file", "suggestedPath": ".claude/docs/security-review-checklist.md" }
+    }
+  ]
+}

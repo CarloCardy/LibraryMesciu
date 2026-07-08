@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "anthropics-mcp-builder",
+      "name": "MCP Builder",
+      "category": "skill",
+      "description": "Skill ufficiale Anthropic per progettare e costruire server MCP (Model Context Protocol): struttura del progetto, tool, risorse e best practice.",
+      "tags": ["mcp", "server", "anthropic", "protocollo", "tool"],
+      "url": "https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md",
+      "install": { "type": "skill", "slug": "mcp-builder" }
+    },
+    {
+      "id": "anthropics-skill-creator",
+      "name": "Skill Creator",
+      "category": "skill",
+      "description": "Skill ufficiale Anthropic che guida nella creazione di nuove skill ben scritte: struttura di SKILL.md, naming, trigger e collaudo.",
+      "tags": ["skill", "authoring", "anthropic", "claude-code"],
+      "url": "https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md",
+      "install": { "type": "skill", "slug": "skill-creator" }
+    },
+    {
+      "id": "anthropics-webapp-testing",
+      "name": "Webapp Testing",
+      "category": "skill",
+      "description": "Skill ufficiale Anthropic per testare applicazioni web reali dal browser: navigazione, interazioni, verifica dello stato della pagina.",
+      "tags": ["test", "browser", "webapp", "anthropic", "e2e"],
+      "url": "https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md",
+      "install": { "type": "skill", "slug": "webapp-testing" }
+    },
+    {
+      "id": "voltagent-electron-pro",
+      "name": "Electron Pro",
+      "category": "agent",
+      "description": "Subagente della raccolta VoltAgent specializzato in app Electron: processi main/renderer, IPC, packaging e sicurezza del sandbox.",
+      "tags": ["agente", "electron", "desktop", "ipc", "voltagent"],
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/electron-pro.md",
+      "install": { "type": "agent", "slug": "electron-pro" }
+    },
+    {
+      "id": "voltagent-code-reviewer",
+      "name": "Code Reviewer",
+      "category": "agent",
+      "description": "Subagente della raccolta VoltAgent per la revisione del codice: correttezza, leggibilità, gestione errori e suggerimenti concreti di refactoring.",
+      "tags": ["agente", "review", "qualita", "refactoring", "voltagent"],
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/code-reviewer.md",
+      "install": { "type": "agent", "slug": "code-reviewer" }
+    }
+  ]
+}
