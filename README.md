@@ -14,6 +14,7 @@ skills/         file .md dei preset di tipo skill
 agents/         file .md dei preset di tipo agente
 routine/        checklist e routine operative
 templates/      template di partenza (es. CLAUDE.md)
+patterns/       pattern UI/UX (category pattern-ui) e di programmazione (pattern-code)
 ```
 
 ## Schema di `index.json` (preset nativi)
@@ -25,7 +26,7 @@ templates/      template di partenza (es. CLAUDE.md)
     {
       "id": "identificativo-unico",
       "name": "Nome mostrato nella libreria",
-      "category": "skill | agent | routine | template | doc",
+      "category": "skill | agent | routine | template | pattern-ui | pattern-code | doc",
       "description": "A cosa serve, in una o due righe.",
       "tags": ["ricerca", "parole", "chiave"],
       "file": "skills/nome-file.md",
