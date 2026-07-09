@@ -38,6 +38,42 @@
       "install": { "type": "agent", "slug": "electron-pro" }
     },
     {
+      "id": "anthropics-frontend-design",
+      "name": "Frontend Design",
+      "category": "pattern-ui",
+      "description": "Skill ufficiale Anthropic per interfacce di qualità: gerarchia visiva, spaziature, tipografia e scelte estetiche guidate, direttamente in Claude Code.",
+      "tags": ["ui", "design", "frontend", "estetica", "anthropic"],
+      "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+      "install": { "type": "skill", "slug": "frontend-design" }
+    },
+    {
+      "id": "thedaviddias-frontend-checklist",
+      "name": "Front-End Checklist",
+      "category": "pattern-ui",
+      "description": "La checklist front-end più usata su GitHub: head, HTML semantico, accessibilità, performance, SEO e sicurezza — tutto ciò che una pagina deve avere prima di andare online.",
+      "tags": ["ui", "checklist", "accessibilita", "performance", "seo"],
+      "url": "https://github.com/thedaviddias/Front-End-Checklist/blob/master/README.md",
+      "install": { "type": "file", "suggestedPath": ".claude/docs/frontend-checklist.md" }
+    },
+    {
+      "id": "ryanmcdermott-clean-code-js",
+      "name": "Clean Code JavaScript",
+      "category": "pattern-code",
+      "description": "I principi di Clean Code adattati a JavaScript: naming, funzioni piccole, gestione errori, classi e SOLID, con esempi bad/good affiancati.",
+      "tags": ["clean-code", "javascript", "solid", "refactoring", "naming"],
+      "url": "https://github.com/ryanmcdermott/clean-code-javascript/blob/master/README.md",
+      "install": { "type": "file", "suggestedPath": ".claude/docs/clean-code-javascript.md" }
+    },
+    {
+      "id": "kamranahmedse-design-patterns",
+      "name": "Design Patterns for Humans",
+      "category": "pattern-code",
+      "description": "I design pattern GoF (creazionali, strutturali, comportamentali) spiegati in linguaggio semplice con esempi concreti: quando usarli e quando no.",
+      "tags": ["design-patterns", "gof", "architettura", "oop"],
+      "url": "https://github.com/kamranahmedse/design-patterns-for-humans/blob/master/readme.md",
+      "install": { "type": "file", "suggestedPath": ".claude/docs/design-patterns.md" }
+    },
+    {
       "id": "voltagent-code-reviewer",
       "name": "Code Reviewer",
       "category": "agent",

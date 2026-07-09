@@ -52,6 +52,26 @@
       "install": { "type": "skill", "slug": "html-docs" }
     },
     {
+      "id": "mesciu-pattern-ui",
+      "name": "Pattern UI/UX di Mesciu",
+      "category": "pattern-ui",
+      "description": "Il linguaggio visivo di Mesciu pronto da riusare: palette slate scura, micro-tipografia, modali, pill button, chip, card record e poster, stati loading/empty/errore e regole trasversali (tooltip, truncate, transizioni).",
+      "tags": ["ui", "ux", "tailwind", "dark", "componenti", "mesciu"],
+      "file": "patterns/mesciu-ui-ux.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/patterns/mesciu-ui-ux.md",
+      "install": { "type": "file", "suggestedPath": ".claude/docs/pattern-ui-mesciu.md" }
+    },
+    {
+      "id": "mesciu-pattern-code",
+      "name": "Pattern di programmazione di Mesciu",
+      "category": "pattern-code",
+      "description": "Le convenzioni del codice di Mesciu: architettura main/preload/renderer, contratto IPC { ok, error }, validatori per dati non fidati con path-safety, funzioni pure testabili, cascata remoto→cache→bundled, protocollo remoto ad azioni.",
+      "tags": ["architettura", "ipc", "electron", "sicurezza", "test", "mesciu"],
+      "file": "patterns/mesciu-code.md",
+      "url": "https://github.com/CarloCardy/LibraryMesciu/blob/main/patterns/mesciu-code.md",
+      "install": { "type": "file", "suggestedPath": ".claude/docs/pattern-code-mesciu.md" }
+    },
+    {
       "id": "claude-md-starter",
       "name": "Template CLAUDE.md",
       "category": "template",
